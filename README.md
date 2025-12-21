@@ -67,7 +67,7 @@ After restart (you have to run the first line every time you restart or reconnec
 
 Get the stats.py file:
 
-	wget https://gist.githubusercontent.com/Skhmt/e390d9a891482ca548c60530a200811d/raw/c9c533c13d718bcf3164260ce03bfd1dc20382c8/stats.py
+	wget https://raw.githubusercontent.com/Skhmt/pihole_display/refs/heads/main/stats.py
 
 Remove the password from pihole:
 
