@@ -44,12 +44,10 @@ Update your OS:
 
 ## Pi-hole adblocker install after re-SSHing:
 
-	source env/bin/activate
 	curl -sSL https://install.pi-hole.net | bash
 
-Uninstall:
-
-	sudo pihole uninstall
+> [!TIP]
+> Uninstall Pi-hole with: `sudo pihole uninstall`
 
 ## For python output with pihole
 
