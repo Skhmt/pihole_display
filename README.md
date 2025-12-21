@@ -79,13 +79,22 @@ Run it:
 
 	python3 stats.py
 
+> [!TIP]
+> The display will probably display static for half a second, then finally display text
+> Use `ctrl + C` to exit it for now
+
 Make it automatically run:
 
 	sudo nano /etc/rc.local
 
-Add this new line before "exit 0":
+Make it look something like this:
 
+	#!/bin/bash
 	sudo ~/pihole/bin/python3 ~/stats.py &
+	exit 0
+
+> [!TIP]
+> If it doesn't already exist, just paste the above in. If it does, just add the middle line before `exit 0`
 	
 Ctrl+X to exit, Y to save, then hit enter
 
