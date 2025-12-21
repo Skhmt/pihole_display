@@ -83,20 +83,21 @@ Run it:
 > The display will probably display static for half a second, then finally display text
 > Use `ctrl + C` to exit it for now
 
-Make it automatically run:
+## Make the display run when you reboot
 
-	sudo nano /etc/rc.local
+Find the current directory with:
 
-Make it look something like this:
+	pwd
 
-	#!/bin/bash
-	sudo ~/pihole/bin/python3 ~/stats.py &
-	exit 0
+You should get something like `/home/myusername`, take a note of that, then run:
 
-> [!TIP]
-> If it doesn't already exist, just paste the above in. If it does, just add the middle line before `exit 0`
-	
-Ctrl+X to exit, Y to save, then hit enter
+	sudo crontab -e
+
+If it asks, enter "1" for nano. On a new line at the bottom, enter:
+
+	@reboot sudo /home/myusername/pihole/bin/python3 /home/myusername/stats.py &
+
+Hit `Ctrl + X` to exit, `Y` to save, then hit `[enter]`
 
 Finally, done one last reboot:
 
