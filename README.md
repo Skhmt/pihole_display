@@ -98,6 +98,10 @@ Make it look something like this:
 	
 Ctrl+X to exit, Y to save, then hit enter
 
+Finally, done one last reboot:
+
+	sudo reboot
+
 # Sources for these instructions
 
 - Very outdated instructions: https://learn.adafruit.com/pi-hole-ad-blocker-with-pi-zero-w?view=all#install-mini-pitft
