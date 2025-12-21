@@ -4,8 +4,8 @@ Get the Imager from:
 
 	https://www.raspberrypi.com/software/
 
-1. Select Raspberry Pi Zero (bottom of the list)
-2. Select Raspberry Pi OS (32-bit) (top of the list)
+1. Select Raspberry Pi Zero (bottom of the list, NOT "Raspberry Pi Zero 2 W")
+2. Select Raspberry Pi OS (Legacy, 32-bit) (second from top of the list)
 3. Select the USB stick (something like: "Generic MassStorageClass USB Device - 29.5 GB")
 4. Enter a hostname - remember this
 5. Select "Washington, D.C.", "America/Los_Angeles", and "us"
