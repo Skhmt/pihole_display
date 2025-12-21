@@ -4,14 +4,14 @@ Get the Imager from:
 
 	https://www.raspberrypi.com/software/
 
-1. Select Raspberry Pi Zero (bottom of the list, NOT "Raspberry Pi Zero 2 W")
-2. Select Raspberry Pi OS (Legacy, 32-bit) (second from top of the list)
+1. Select Raspberry Pi Zero (**bottom** of the list, **NOT** "Raspberry Pi Zero 2 W")
+2. Select Raspberry Pi OS (**Legacy**, 32-bit) (second from top of the list)
 3. Select the USB stick (something like: "Generic MassStorageClass USB Device - 29.5 GB")
-4. Enter a hostname - remember this
+4. Enter a hostname - _remember this_
 5. Select "Washington, D.C.", "America/Los_Angeles", and "us"
-6. Choose a username and password - remember these 
+6. Choose a username and password - _remember these_
 	(you can always re-run the install process if you forget, which wipes out everything)
-7. Enter your wifi network SSID and password - it must be a 2.4 Ghz network, not 5 Ghz
+7. Enter your wifi network SSID and password - **it must be a 2.4 Ghz network**, not 5 Ghz
 8. Enable SSH and select "Use password authentication"
 9. Do not enable Raspberry Pi Connect
 10. Click "Write" and wait a while
@@ -37,7 +37,7 @@ Enter the following without [brackets]:
 
 Enter the password from before for your username.
 
-Update your OS:
+Update your Raspberry Pi's OS:
 
 	sudo apt update -y
 	sudo apt upgrade -y
