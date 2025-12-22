@@ -42,14 +42,14 @@ Update your Raspberry Pi's OS:
 	sudo apt update -y
 	sudo apt upgrade -y
 
-## Pi-hole adblocker install after re-SSHing:
+## Pi-hole adblocker install:
 
 	curl -sSL https://install.pi-hole.net | bash
 
 > [!TIP]
 > Uninstall Pi-hole with: `sudo pihole uninstall`
 
-## For python output with pihole
+## To enable the screen to work with Pi-hole:
 
 	sudo apt install python3-venv
 	sudo apt-get install -y python3-pip
