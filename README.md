@@ -80,8 +80,8 @@ Run it:
 	python3 stats.py
 
 > [!TIP]
-> The display will probably display static for half a second, then finally display text
-> Use `ctrl + C` to exit it for now
+> The display will probably display static for a moment.
+> Use `ctrl + C` to exit it for now.
 
 ## Make the display run when you reboot
 
@@ -93,7 +93,7 @@ You should get something like `/home/myusername`, take a note of that, then run:
 
 	sudo crontab -e
 
-If it asks, enter "1" for nano. On a new line at the bottom, enter:
+If it asks, enter "1" for the "Nano" editor. On a new line at the bottom, enter:
 
 	@reboot sudo /home/myusername/pihole/bin/python3 /home/myusername/stats.py &
 
