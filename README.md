@@ -1,5 +1,10 @@
-# Install the Raspberry Pi OS
+# Raspberry Pi Zero W + PiHole instructions
 
+This is for the Adafruit [Mini Color PiTFT Ad Blocking Pi-Hole Kit](https://www.adafruit.com/product/4475).
+
+You'll also need a separate computer on the same wifi network as you intend to use this on.
+
+## Install the Raspberry Pi OS
 Get the Imager from:
 
 	https://www.raspberrypi.com/software/
